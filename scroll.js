@@ -1,6 +1,6 @@
 "use strict";
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", () => {
     const topNav = document.querySelector(".header__section");
     topNav.classList.toggle("navChange", window.scrollY > 20);
 
