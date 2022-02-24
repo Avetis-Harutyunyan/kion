@@ -5,7 +5,7 @@ function navSide() {
     const nav = document.querySelector("#navSide");
     const bodyBottom = document.querySelector("body");
 
-    bars.addEventListener("click", function () {
+    bars.addEventListener("click", () => {
         nav.classList.toggle("nav-active");
 
         // burger animation
@@ -15,3 +15,14 @@ function navSide() {
     });
 }
 navSide();
+
+function search() {
+    const searchBtn = document.querySelector(".search-btn");
+    const searchInput = document.querySelector("#search-input");
+
+    searchBtn.addEventListener("click", () => {
+        searchInput.classList.add("input-active");
+    });
+}
+
+search();
