@@ -1,5 +1,3 @@
-"use strict";
-
 function navSide() {
     const bars = document.querySelector("#burger");
     const nav = document.querySelector("#navSide");
